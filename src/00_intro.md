@@ -7,12 +7,12 @@
 {
     "jsonrpc": "2.0",
     "method": "agent.create",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
         "data": {
             "label": "John Doe"
         }
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -28,12 +28,12 @@
     "msg": "{
         \"jsonrpc\": \"2.0\",
         \"method\": \"agent.create\",
-        \"params\": {
+        \"params\": [{
             \"room_id\": \"050b7c6f-795c-4cb4-aeea-5ee3f9083de2\",
             \"data\": {
                 \"label\": \"John Doe\"
             }
-        },
+        }],
         \"id\": \"qwerty\"
     }"
 }
@@ -71,12 +71,12 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 {
     "jsonrpc": "2.0",
     "method": "subscription.create",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
         "data": {
             "resource": "agents"
         }
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -85,9 +85,9 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 // {
 //     "jsonrpc": "2.0",
 //     "method": "agent.subscribe",
-//     "params": {
+//     "params": [{
 //         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2"
-//     },
+//     }],
 //     "id": "qwerty"
 // }
 ```

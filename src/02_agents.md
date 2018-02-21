@@ -16,12 +16,12 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 {
     "jsonrpc": "2.0",
     "method": "agent.create",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
         "data": {
             "label": "John Doe"
         }
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -59,10 +59,10 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 {
     "jsonrpc": "2.0",
     "method": "agent.read",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
         "id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -98,13 +98,13 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 {
     "jsonrpc": "2.0",
     "method": "agent.update",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
         "id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
         "data": {
             "label": "John Doe II"
         }
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -140,10 +140,10 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 {
     "jsonrpc": "2.0",
     "method": "agent.delete",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
         "id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -179,9 +179,9 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 {
     "jsonrpc": "2.0",
     "method": "agent.list",
-    "params": {
+    "params": [{
         "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2"
-    },
+    }],
     "id": "qwerty"
 }
 ```
@@ -226,7 +226,7 @@ apps/signals/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/agents
 {
     "jsonrpc": "2.0",
     "method": "event",
-    "params": {
+    "params": [{
         "source": {
             "app": "signals",
             "type": "agent.create",
@@ -238,6 +238,6 @@ apps/signals/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/agents
                 "label": "John Doe"
             }
         }
-    }
+    }]
 }
 ```
