@@ -95,7 +95,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
     "jsonrpc": "2.0",
     "result": {
         "data": {
-            "topic": "apps/signals/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/agents"
+            "topic": "apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/agents"
         }
     },
     "id": "qwerty"

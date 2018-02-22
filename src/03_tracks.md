@@ -118,7 +118,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1/rooms/123/tracks
 Чтобы получать информацию о событиях, необходимо оформить подписку:
 ```
 A(a)u1 sub:
-apps/signals.netology-group.services/api/v1/rooms/123/tracks
+apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/tracks
 ```
 
 ### TODO: Created

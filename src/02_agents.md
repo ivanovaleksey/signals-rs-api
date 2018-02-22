@@ -218,7 +218,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
 
 ```
 A(a)signals pub:
-apps/signals/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/agents
+apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9083de2/agents
 ```
 
 ### Created
