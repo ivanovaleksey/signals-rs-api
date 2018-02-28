@@ -52,7 +52,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
             "kind": "video",
             "label": "human readable",
             "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-            "remote": []
+            "holders": []
         }
     },
     "id": "qwerty"
@@ -102,7 +102,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
             "kind": "video",
             "label": "human readable",
             "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-            "remote": [
+            "holders": [
                 {
                     "id": "9839b399-e5f5-4f1c-acb8-bad33db615a9"
                 }
@@ -153,7 +153,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
             "kind": "video",
             "label": "human readable",
             "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-            "remote": []
+            "holders": []
         }
     },
     "id": "qwerty"
@@ -202,7 +202,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
             "kind": "video",
             "label": "human readable",
             "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-            "remote": [
+            "holders": [
                 // Агенты, у которых еще остался этот трек
             ]
         }
@@ -240,12 +240,12 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 
 - Получение remote треков агента
 ```
-"q": "remote.owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
+"q": "holders.id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
 ```
 
 - Получение всех треков агента
 ```
-"q": "owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e OR remote.owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
+"q": "owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e OR holders.id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
 ```
 
 *Response:*
@@ -268,7 +268,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
                 "kind": "video",
                 "label": "human readable",
                 "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-                "remote": [
+                "holders": [
                     {
                         "id": "9839b399-e5f5-4f1c-acb8-bad33db615a9"
                     }
@@ -284,7 +284,7 @@ agents/A(a)u1/in/signals.netology-group.services/api/v1
                 "kind": "video",
                 "label": "human readable",
                 "owner_id": "9839b399-e5f5-4f1c-acb8-bad33db615a9",
-                "remote": [
+                "holders": [
                     {
                         "id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
                     }
@@ -321,7 +321,7 @@ apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9
                 "kind": "video",
                 "label": "human readable",
                 "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-                "remote": []
+                "holders": []
             }
         }
     }]
@@ -345,7 +345,7 @@ apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9
                 "kind": "video",
                 "label": "human readable",
                 "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-                "remote": [
+                "holders": [
                     {
                         "owner_id": "9839b399-e5f5-4f1c-acb8-bad33db615a9"
                     }
@@ -373,7 +373,7 @@ apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9
                 "kind": "video",
                 "label": "human readable",
                 "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-                "remote": []
+                "holders": []
             }
         }
     }]
@@ -399,7 +399,7 @@ apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9
                 "kind": "video",
                 "label": "human readable",
                 "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
-                "remote": [
+                "holders": [
                     // Агенты, у которых еще остался этот трек
                 ]
             }
