@@ -20,6 +20,6 @@
     - [Unregister](ch03-04-unregister.md)
     - [List](ch03-05-list.md)
 
-- [Signals](./signals.md)
+- [Signals](ch04-00-signals.md)
 
 [Scripts](./99_scripts.md)
