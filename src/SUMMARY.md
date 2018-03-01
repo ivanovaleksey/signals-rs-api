@@ -5,7 +5,12 @@
 [Last Will message](./00_last_will.md)
 
 - [Rooms](./01_rooms.md)
-- [Agents](./02_agents.md)
+- [Agents](ch02-00-agents.md)
+    - [Create](ch02-01-create.md)
+    - [Read](ch02-02-read.md)
+    - [Update](ch02-03-update.md)
+    - [Delete](ch02-04-delete.md)
+    - [List](ch02-05-list.md)
 - [Tracks](./03_tracks.md)
 - [Signals](./signals.md)
 
