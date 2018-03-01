@@ -347,7 +347,7 @@ apps/signals.netology-group.services/api/v1/rooms/050b7c6f-795c-4cb4-aeea-5ee3f9
                 "owner_id": "1154b35c-e5b0-4a42-8ab2-d4967ce38c9e",
                 "holders": [
                     {
-                        "owner_id": "9839b399-e5f5-4f1c-acb8-bad33db615a9"
+                        "id": "9839b399-e5f5-4f1c-acb8-bad33db615a9"
                     }
                 ]
             }
