@@ -224,8 +224,8 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
     "jsonrpc": "2.0",
     "method": "track.list",
     "params": [{
-        "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2",
-        "q": "" // See details below
+        // See details below
+        "fq": ""
     }],
     "id": "qwerty"
 }
@@ -233,19 +233,27 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
 
 #### Фильтры
 
+Фильтры не являются обязательными. Агент будет получать данные в соотвествии с правами доступа.
+Фильтры могут быть объединены с помощью логических операторов `AND`, `OR`.
+
+- Получение треков в конкретной комнате
+```
+"fq": "room_id:050b7c6f-795c-4cb4-aeea-5ee3f9083de2"
+```
+
 - Получение локальных треков агента
 ```
-"q": "owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
+"fq": "owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
 ```
 
 - Получение remote треков агента
 ```
-"q": "holders.id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
+"fq": "holders.id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
 ```
 
 - Получение всех треков агента
 ```
-"q": "owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e OR holders.id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
+"fq": "owner_id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e OR holders.id:1154b35c-e5b0-4a42-8ab2-d4967ce38c9e"
 ```
 
 *Response:*

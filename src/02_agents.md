@@ -181,11 +181,13 @@ agents/A(a)u1/out/signals.netology-group.services/api/v1
     "jsonrpc": "2.0",
     "method": "agent.list",
     "params": [{
-        "room_id": "050b7c6f-795c-4cb4-aeea-5ee3f9083de2"
+        "fq": "room_id:050b7c6f-795c-4cb4-aeea-5ee3f9083de2"
     }],
     "id": "qwerty"
 }
 ```
+
+Фильтры не являются обязательными. Агент будет получать данные в соотвествии с правами доступа.
 
 *Response:*
 ```
